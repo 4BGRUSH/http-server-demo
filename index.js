@@ -23,6 +23,6 @@ app.get('/file/:name', function (req, res, next) {
     });
 });
 
-app.listen(8090, '127.0.0.1', function () {
+app.listen(8090, '0.0.0.0', function () {
     console.log('Listening on port 8090');
 });
